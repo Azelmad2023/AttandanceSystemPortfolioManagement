@@ -70,5 +70,13 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 Projet de fin d'études pour la gestion de la présence des enseignants par l'administration . 
 Permet l'enregistrement des présences et des absences des enseignants par les administrateurs.
 Simplification des processus de suivi de présence et réduction de la charge administrative.
-to run this project write : php artisan serve in the terminal of this project 
+to run this project write : 
+1) php artisan serve 
+2) then run : php artisan migrate
+3) then run : php artisan db:seed
+in the terminal of this project
+
+LogIn :
+password : password
+email : admin@example.com
 >>>>>>> dedd4d6020981ded5c396ddccfe959ab00191d46
